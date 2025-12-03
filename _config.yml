@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: economics, monetary policy, federal reserve, macro, economic research, econometrics 
 lang: en 
-icon: 👾
+icon: 🔖
 
 url: https://mcgeever1.github.io
 baseurl:
@@ -162,12 +162,6 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
@@ -178,7 +172,6 @@ exclude:
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
 keep_files:
   - CNAME
