@@ -405,10 +405,6 @@ ul.task-list input[type="checkbox"] {
   display: none !important;
 }
 
-#back-to-top {
-  display: none !important;
-}
-
 #search-toggle {
   padding: 0;
   border: 0;
@@ -520,12 +516,14 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
   font-size: 0.75rem;
 
   .container {
     text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 
@@ -586,18 +584,21 @@ footer.sticky-bottom {
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
   ul {
     justify-content: center;
     display: flow-root;
+    margin: 0;
 
     p,
     li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      padding: 0.3rem 0.4rem;
       color: var(--global-text-color-light);
+      font-size: 0.85rem;
     }
   }
 }
