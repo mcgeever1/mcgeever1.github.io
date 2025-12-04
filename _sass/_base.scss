@@ -397,7 +397,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-#light-toggle,
+.toggle-container {
+  display: none !important;
+}
+
+#progress {
+  display: none !important;
+}
+
 #search-toggle {
   padding: 0;
   border: 0;
