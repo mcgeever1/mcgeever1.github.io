@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='mailto:{{ site.data.socials.email }}'><i class="fas fa-envelope"></i> Email</a> | <a href='https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}'><i class="fab fa-linkedin"></i> LinkedIn</a> | <a href='https://github.com/{{ site.data.socials.github_username }}'><i class="fab fa-github"></i> GitHub</a>
+subtitle: <a href='mailto:{{ site.data.socials.email }}'>Email</a> | <a href='https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}'>LinkedIn</a>
+
 
 profile:
   align: right
