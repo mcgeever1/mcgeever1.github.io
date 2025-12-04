@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>.
+subtitle: <a href='mailto:{{ site.data.socials.email }}'><i class="fas fa-envelope"></i> Email</a> | <a href='https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}'><i class="fab fa-linkedin"></i> LinkedIn</a> | <a href='https://github.com/{{ site.data.socials.github_username }}'><i class="fab fa-github"></i> GitHub</a>
 
 profile:
   align: right
