@@ -42,7 +42,7 @@ pagination:
         {% endunless %}
       {% endfor %}
       {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
+        <br>
       {% endif %}
       {% for category in site.display_categories %}
         <li>
