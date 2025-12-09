@@ -159,7 +159,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: 
+include:
   - "_pages/404.md"
   - "_pages/about.md"
   - "_pages/blog.md"

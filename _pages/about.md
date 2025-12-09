@@ -4,7 +4,6 @@ title: about
 permalink: /
 subtitle: <a href='mailto:{{ site.data.socials.email }}'>Email</a> | <a href='https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}'>LinkedIn</a>
 
-
 profile:
   align: right
   image: prof_pic.jpg
