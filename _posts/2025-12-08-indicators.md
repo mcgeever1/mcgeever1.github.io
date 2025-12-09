@@ -13,10 +13,10 @@ categories: macro
 For decades, a weather beacon utop a skyscaper in Boston has indicated the weather forecast. Blue meant clear skies ahead, flashing for clouds. Red meant rain was to be expected, flashing when that percipation became snow. 
 
 A rhyme was developed by bostionians to use as a mnemonic:
-    >Steady blue, clear view.
-    >Flashing blue, clouds due.
-    >Steady red, rain ahead.
-    >Flashing red, snow instead
+>Steady blue, clear view.
+>Flashing blue, clouds due.
+>Steady red, rain ahead.
+>Flashing red, snow instead
 
 To most in the city, the light would go unnoticed. In the decades following its installation, the information provided by the beacon would be ecplised, first by radio, then the newstream, and eventually smartphones. 
 
