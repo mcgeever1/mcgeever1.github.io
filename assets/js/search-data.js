@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-indicators",
+        
+          title: "Indicators",
+        
+        description: "Thoughts on indicators and their use in everyday life.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/indicators/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
