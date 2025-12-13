@@ -32,7 +32,7 @@ Our world is full of data, sometimes cleaned and presented obviously, other time
 [^1]: [Wikipedia page] (https://en.wikipedia.org/wiki/Berkeley_Building)
 [^2]: A rhyme was developed by Bostonians to use as a mnemonic:<br>
 
-    > Steady blue, clear view<br>
-    > Flashing blue, clouds due<br>
-    > Steady red, rain ahead<br>
-    > Flashing red, snow instead<br>
+    Steady blue, clear view<br>
+    Flashing blue, clouds due<br>
+    Steady red, rain ahead<br>
+    Flashing red, snow instead<br>
