@@ -30,8 +30,7 @@ For most who live in the city today, it's just a light among all of the others n
 Our world is full of data, sometimes cleaned and presented obviously, other times hidden in the noise of a city. When we allow ourselves to sit with our curiosity, it is valuable both as an exercise and for the questions it brings up.
 
 [^1]: [Wikipedia page] (https://en.wikipedia.org/wiki/Berkeley_Building)
-[^2]: A rhyme was developed by Bostonians to use as a mnemonic:<br>
-
+[^2]: A rhyme was developed by Bostonians to use as a mnemonic:
     Steady blue, clear view<br>
     Flashing blue, clouds due<br>
     Steady red, rain ahead<br>
