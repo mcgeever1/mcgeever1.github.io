@@ -1280,10 +1280,21 @@ ninja-keys {
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
+  --ninja-text-color: var(--global-text-color);
+  --ninja-selected-background: var(--global-card-bg-color);
+  --ninja-overflow-background: rgba(0, 0, 0, 0.4);
+  --ninja-secondary-background-color: var(--global-card-bg-color);
+  --ninja-secondary-text-color: var(--global-text-color-light);
+  --ninja-key-background: var(--global-card-bg-color);
+  --ninja-key-color: var(--global-text-color);
+  --ninja-key-border-color: var(--global-divider-color);
+  --ninja-icon-color: var(--global-text-color);
+  --ninja-selected-text-color: var(--global-text-color);
 }
 
 ninja-keys::part(ninja-input) {
-  color: var(--ninja-selected-text-color);
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
 }
 
 ninja-keys::part(ninja-input-wrapper) {
