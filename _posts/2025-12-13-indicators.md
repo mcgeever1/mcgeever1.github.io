@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Indicators"
-date: 2025-12-08
-description: Thoughts on indicators and their use in everyday life.
+date: 2025-12-13
+description: Thoughts on indicators and exploring them in everyday life.
 tags: jots
 categories: macro
 ---

@@ -459,6 +459,7 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -515,15 +516,18 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding: 1px !important;
-  font-size: 0.7rem;
+  border-top: 0.5px solid var(--global-divider-color);
+  padding: 0.5px !important;
+  font-size: 0.6rem;
+  margin-top: 0.1rem;
+  display: flex;
+  align-items: flex-end;
 
   .container {
     text-align: center;
-    padding: 0 !important;
+    padding: 0.2 !important;
     margin: 0 !important;
-    line-height: 1.2;
+    line-height: 1.1;
   }
 }
 
@@ -1507,4 +1511,14 @@ figure.cover {
 
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
+}
+
+/* Smaller footnotes */
+.footnotes {
+  font-size: 0.85rem;
+  margin-top: 4rem;
+}
+
+sup {
+  font-size: 0.75rem;
 }
