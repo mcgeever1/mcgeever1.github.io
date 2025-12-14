@@ -51,6 +51,7 @@ search_enabled: true
 socials_in_search: false
 posts_in_search: true
 bib_search: false
+theme_mode: dark # options: light, dark, auto
 
 # Dimensions
 max_width: 930px
