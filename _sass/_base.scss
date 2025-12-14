@@ -56,6 +56,17 @@ table.table a {
   }
 }
 
+/* Override Bootstrap table defaults for dark mode */
+.table {
+  color: var(--global-text-color) !important;
+  background-color: var(--global-bg-color) !important;
+}
+
+.table th,
+.table td {
+  border-color: var(--global-divider-color) !important;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
