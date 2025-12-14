@@ -248,7 +248,8 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: none; 
+  // solid var(--global-divider-color); <-- IGNORE -- (in case want border)
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -502,7 +503,7 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
 
   a {
@@ -516,7 +517,8 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 0.5px solid var(--global-divider-color);
+  border-top: none;
+  // 0.5px solid var(--global-divider-color); <-- IGNORE -- (in case want border)
   padding: 0.5px !important;
   font-size: 0.6rem;
   margin-top: 0.1rem;
@@ -524,7 +526,7 @@ footer.sticky-bottom {
   align-items: flex-end;
 
   .container {
-    text-align: center;
+    text-align: left;
     padding: 0.2 !important;
     margin: 0 !important;
     line-height: 1.1;
@@ -765,8 +767,8 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
+      // .preview {
+      // }
 
       .abbr {
         margin-bottom: 0.5rem;
