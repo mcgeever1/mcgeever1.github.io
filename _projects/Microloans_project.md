@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Mock Program Proposal: Agricultural Micro-loans in Sub-Sahara Africa
 description: Microloans and local intermediaries as a pathway to technology adoption and productivity growth
 img:
