@@ -1,14 +1,15 @@
 ---
-layout: project
-title: Mock Program Proposal: Agricultural Micro-loans in Sub-Sahara Africa
+layout: page
+title: Micro-loans in SSA
 description: Microloans and local intermediaries as a pathway to technology adoption and productivity growth
-img:
-# importance: 3
+img: assets/img/3.jpg
+importance: 2
 category: developmental
+giscus_comments: false
 ---
 
-
 ## I. Why This Problem is Important
+
 
 As food production, raw resources, and biofuel, agriculture supports much of world around us, sustained productivity growth is necessary to meet rising global demand. Over the past six decades, world agricultural output has increased at an annual rate of 2.3%, while input use has only grown 1.2% (USDA). This comes with the increase of productivity in the sector, spearheaded by the adoption of modern farming techniques, represented by a 1.1% increase in total factor productivity. Globally, continued gains in TFP have kept us above our break-even point, and has continued to do so with the implementation of modern farming techniques in less developed regions. 
 
@@ -78,13 +79,6 @@ If hardships lead to significantly poor yields, whether from extreme weather or 
 These constraints are real, but they are also precisely why this intervention is designed as it is. Local loan officers can assess individual farmer risk profiles and adjust loan terms accordingly. They can build relationships that survive poor harvests. Farmers with insurance coverage or access to reliable extension services are significantly more likely to borrow.[^2] The program's strength lies not in ignoring these constraints but in working within them. Formal lending institutions cannot do this.
 
 ---
-
-[^1]: Balana and Oyeyemi (2022), Table 7, find that credit constraints reduce fertilizer adoption (p<0.05) and seed adoption (p<0.001), but not agrochemicals. This differential effect suggests credit is binding specifically for expensive inputs.
-
-[^2]: Balana and Oyeyemi (2022) find that households with insurance coverage are 6.1% less likely to be demand-side credit constrained, suggesting that risk management mechanisms can substantially increase borrowing participation.
-
----
-
 ## Citations
 
 Balana, Bedru B., and Motunrayo A. Oyeyemi. 2022. "Agricultural Credit Constraints in Smallholder Farming in Developing Countries: Evidence from Nigeria." *World Development Sustainability*, 1: 100012.
