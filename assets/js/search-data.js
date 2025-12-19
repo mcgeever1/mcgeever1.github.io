@@ -27,9 +27,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/indicators/";
           
         },
-      },{id: "projects-micro-loans-in-ssa",
-          title: 'Micro-loans in SSA',
-          description: "Microloans and local intermediaries as a pathway to technology adoption and productivity growth",
+      },{id: "projects-microloans-through-intermediaries",
+          title: 'Microloans through Intermediaries',
+          description: "Microloans and local intermediaries as an approach to demand constrained farm credit systems in Sub-Saharan Africa",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1-project/";
             },},];
