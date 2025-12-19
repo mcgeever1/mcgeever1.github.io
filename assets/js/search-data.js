@@ -27,9 +27,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/indicators/";
           
         },
-      },{id: "projects-",
-          title: '',
-          description: "",
+      },{id: "projects-micro-loans-in-ssa",
+          title: 'Micro-loans in SSA',
+          description: "Microloans and local intermediaries as a pathway to technology adoption and productivity growth",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Microloans_project/";
+              window.location.href = "/projects/1-project/";
             },},];
