@@ -29,7 +29,7 @@ ninja.data = [{
         },
       },{id: "projects-microloans-through-intermediaries",
           title: 'Microloans through Intermediaries',
-          description: "Microloans and local intermediaries as an approach to demand constrained farm credit systems in Sub-Saharan Africa",
+          description: "Microloans and local intermediaries as an approach to constrained farm credit systems in Sub-Saharan Africa",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1-project/";
+              window.location.href = "/projects/1-project";
             },},];
