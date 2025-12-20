@@ -8,6 +8,13 @@ category: developmental
 giscus_comments: false
 ---
 
+<div class="row">
+  <div class="col-sm">
+    {% include figure.liquid loading="eager" path="assets/img/MLSSA3.jpg" title="cultivated farmland" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+
     TLDR: Smallholder farmers in Sub-Saharan Africa face persistent barriers to adopting high-impact agricultural technologies due to credit constraints and information asymmetries that exclude them from formal lending markets. This policy note proposes a microloan intervention administered through local intermediaries to enable investment modern inputs. Evidence from demand-side credit constraints in Nigeria suggests that microloans targeting the most expensive, productivity-enhancing inputs can substantially increase technology adoption while generating demonstration effects that accelerate broader uptake. If successful, such interventions could drive agricultural productivity improvements with particularly large poverty-reduction effects, as estimates indicate farm productivity gains are 11 times more poverty-reducing than growth in other sectors.
 
 ### I. Introduction
