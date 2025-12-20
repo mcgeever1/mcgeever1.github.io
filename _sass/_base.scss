@@ -206,6 +206,11 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.news {
+  margin-top: -200;
+  padding-top: 0;
+}
+
 .profile {
   width: 100%;
 
@@ -242,7 +247,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .post-description {
-  margin-bottom: 0.1rem;
+  margin-bottom: 2rem;
   font-size: 0.875rem;
 
   a {
