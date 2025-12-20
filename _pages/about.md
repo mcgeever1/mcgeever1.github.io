@@ -33,3 +33,7 @@ latest_posts:
 ---
 
 I write here about economics research and commentary, both mine and others, and share new projects.
+
+My main interests are monetary policy & econometrics.
+
+Currently working on research examining intergenerational mobility in the United States during the Reconstruction Era. 
