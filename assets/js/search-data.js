@@ -20,7 +20,7 @@ ninja.data = [{
         
           title: "Indicators",
         
-        description: "Thoughts on indicators and exploring them in everyday life.",
+        description: "Thoughts on indicators and exploring them in the everyday",
         section: "Posts",
         handler: () => {
           
