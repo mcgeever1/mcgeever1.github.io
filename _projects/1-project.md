@@ -102,7 +102,6 @@ If hardships lead to significantly poor yields, whether from extreme weather or 
 These constraints are real, but they are also precisely why this intervention is designed as it is. Local loan officers can assess individual farmer risk profiles and adjust loan terms accordingly. They can build relationships that survive poor harvests. Farmers with insurance coverage or access to reliable extension services are significantly more likely to borrow.[^2] The program's strength lies not in ignoring these constraints but in working within them. Formal lending institutions cannot do this.
 
 ---
-
 [^1]: Balana and Oyeyemi (2022), Table 7, find that credit constraints reduce fertilizer adoption (p<0.05) and seed adoption (p<0.001), but not agrochemicals. This differential effect suggests credit is binding specifically for expensive inputs.
 
 [^2]: Balana and Oyeyemi (2022) find that households with insurance coverage are 6.1% less likely to be demand-side credit constrained, suggesting that risk management mechanisms can substantially increase borrowing participation.
