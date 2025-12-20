@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Microloans through Intermediaries
-description: Microloans and local intermediaries as an approach to demand constrained farm credit systems in Sub-Saharan Africa
+description: Microloans and local intermediaries as an approach to constrained farm credit systems in Sub-Saharan Africa
 img: assets/img/3.jpg
 importance: 2
+date: 2025-12-20
 category: developmental
 giscus_comments: false
 ---
+<a href='/assets/pdf/McGeever Ethan Microloans in SSA.pdf'>read the paper here</a>
 
 <div class="row">
   <div class="col-sm">
@@ -23,7 +25,7 @@ As food production, raw resources, and biofuel, support much of world around us,
 
 In the past decade, agricultural productivity has slowed significantly, prompting a serious reason for concern. The cause of this slowdown can be indicated by the decline in TFP, almost 0.8% in comparison to the decade before. This slowdown has been observed globally. 
 
-**Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by weak financial infrastructure.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.[^1] This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
+**Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by a weakness in both the supply and demand of credit.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.[^1] This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
 
 ---
 
@@ -32,6 +34,12 @@ In the past decade, agricultural productivity has slowed significantly, promptin
 Governments in Sub-Saharan Africa need to support small farmers by providing microloans. Drawing on Uganda's PRIDE program, this intervention would provide micro-loans to smallholder farmers, enabling investment in higher quality seeds, fertilizers, and land expansion. 
 
 ---
+
+<div class="row">
+  <div class="col-sm">
+    {% include figure.liquid loading="lazy" path="assets/img/IFAD Nanjiri Market in Malawi.jpg" title="IFAD Nanjiri Market in Malawi" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 ### III. Motivation/Justification for Proposed Intervention
 
@@ -66,7 +74,14 @@ The inputs of this intervention are government-allotted microloans to smallholde
 
 The program generates outcomes across multiple time horizons. **Immediately**, farmers use microloans to adopt improved seeds, fertilizers, and expand land under cultivation. **Within the first few years**, these investments translate into higher yields. As early adopters demonstrate success, neighboring farmers adopt improved techniques, creating demonstration effects that accelerate uptake. 
 
-**Over the extended horizon**, sustained productivity improvements compound through both direct and indirect channels. Directly, expanded credit enables increased input use and adoption of improved technologies. Indirectly, the established financial infrastructure reduces transaction costs and information barriers, generating spillovers that benefit all farmers. These institutional improvements—not just more inputs—are the basis for durable productivity gains. The successful loan program establishes a self-sustaining microloan market that enables continued credit access and institutional development, supporting sustained agricultural productivity for future participants.
+**Over the extended horizon**, sustained productivity improvements compound through both direct and indirect channels. Directly, expanded credit enables increased input use and adoption of improved technologies. Indirectly, the established financial infrastructure reduces transaction costs and information barriers, generating spillovers that benefit all farmers. These institutional improvements are the basis for durable productivity gains. The successful loan program establishes a self-sustaining microloan market that enables continued credit access and institutional development, supporting sustained agricultural productivity for future participants.
+
+
+<div class="row">
+  <div class="col-sm">
+    {% include figure.liquid loading="eager" path="assets/img/MLSSA1.jpg" title="cultivated farmland 2" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 ---
 
@@ -91,6 +106,12 @@ These constraints are real, but they are also precisely why this intervention is
 [^1]: Balana and Oyeyemi (2022), Table 7, find that credit constraints reduce fertilizer adoption (p<0.05) and seed adoption (p<0.001), but not agrochemicals. This differential effect suggests credit is binding specifically for expensive inputs.
 
 [^2]: Balana and Oyeyemi (2022) find that households with insurance coverage are 6.1% less likely to be demand-side credit constrained, suggesting that risk management mechanisms can substantially increase borrowing participation.
+
+<div class="row">
+  <div class="col-sm">
+    {% include figure.liquid loading="lazy" path="assets/img/MLSSA2.jpg" title="cultivated farmland" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 #### Citations
 
