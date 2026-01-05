@@ -32,7 +32,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I write here about economics research and commentary, both mine and others, and share new projects.
+I write here about economics, discuss my own research and others, and share new projects.
 
 My main interests are monetary policy & econometrics.
 
