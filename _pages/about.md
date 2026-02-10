@@ -36,4 +36,4 @@ I write here about economics, discuss my own research and others, and share new 
 
 My main interests are monetary policy & econometrics.
 
-Currently working on research examining intergenerational mobility in the United States during the Reconstruction Era. 
+Currently working on research examining intergenerational mobility in the United States during the Reconstruction Era and China's Belt and Road Initiative.
