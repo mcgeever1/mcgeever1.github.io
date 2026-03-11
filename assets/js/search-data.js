@@ -9,25 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "post-indicators",
-        
-          title: "Indicators",
-        
-        description: "Thoughts on indicators and exploring them in the everyday",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/indicators/";
-          
-        },
-      },{id: "projects-microloans-through-intermediaries",
+  },{id: "projects-microloans-through-intermediaries",
           title: 'Microloans through Intermediaries',
           description: "Microloans and local intermediaries as an approach to constrained farm credit systems in Sub-Saharan Africa",
           section: "Projects",handler: () => {
