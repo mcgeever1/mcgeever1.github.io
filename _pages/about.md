@@ -26,14 +26,14 @@ latest_projects:
   scrollable: true
   limit: 3
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
 I write here about economics, discuss my own research and others, and share new projects.
 
-My main interests are monetary policy & econometrics.
+My main interests are monetary policy & development economics.
 
 Currently working on research examining intergenerational mobility in the United States during the Reconstruction Era and China's Belt and Road Initiative.
