@@ -50,7 +50,8 @@ layout: default
 
 <!-- Latest projects -->
   <h2>
-    <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+    {%- comment -%}<a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>{%- endcomment -%}
+    projects
   </h2>
   {% include latest_projects.liquid %}
 
