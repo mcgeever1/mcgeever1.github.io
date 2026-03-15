@@ -16,7 +16,7 @@
         {% endif %}
         {% for item in latest_projects limit: latest_projects_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            {%- comment -%}<th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>{%- endcomment -%}
             <td>
               {% if item.redirect == blank %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
