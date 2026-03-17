@@ -266,10 +266,12 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: none; 
+  border-bottom: none;
   // solid var(--global-divider-color); <-- IGNORE -- (in case want border)
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .navbar .dropdown-menu,
@@ -1547,7 +1549,7 @@ mjx-container[jax="CHTML"][display="true"] {
 /* Smaller footnotes */
 .footnotes {
   font-size: 0.85rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 sup {
