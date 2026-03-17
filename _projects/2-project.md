@@ -24,7 +24,7 @@ MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live car
 
 ---
 
-There are over **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a  commander may have anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
+There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a  commander may have anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
 
 A single commander can have 50–200 cards in their pool. Pair selection follows:
 
@@ -32,7 +32,7 @@ $$\binom{n}{2} = \frac{n(n-1)}{2}$$
 
 meaning a 200-card pool generates up to **19,900 possible pairs**.
 
-Most of these are useless at a given the difficulty tier. The interesting part is tuning the model to pick interesting matchups.
+Most of these are useless at a given the difficulty tier. The interesting part is tuning the model to display compelling matchups.
 
 ## Difficulty Scaling
 
@@ -125,7 +125,7 @@ choice.gif       # gameplay demo
 
 **APIs used:**
 - `https://json.edhrec.com/pages/commanders/{slug}.json` — deck stats
-- `https://api.scryfall.com/cards/named?exact={name}` — card images
+- `https://api.scryfall.com/cards/named?exact={name}` — card data
 
 At startup the app fetches the latest popular commanders from EDHREC (3 paginated pages). If that fails it falls back to a hardcoded list of 248 commanders. The player never sees an error.
 
