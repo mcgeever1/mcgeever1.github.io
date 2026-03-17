@@ -7,13 +7,17 @@ importance: 4
 category: fun
 giscus_comments: false
 ---
-[Check it out here!](https://mcgeever1.github.io/mtg-cascade/) |  [Repo](https://github.com/mcgeever1/mtg-cascade)
+<div style="margin: 0.4rem 0 1.5rem 0;">
+  <a href="https://mcgeever1.github.io/mtg-cascade/" target="_blank" title="Live Site" style="margin-right: 0.75rem;"><i class="fa-solid fa-link fa-lg"></i></a>
+  <a href="https://github.com/mcgeever1/mtg-cascade" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github fa-lg"></i></a>
+</div>
 
 <div class="row">
   <div class="col-sm">
     {% include figure.liquid loading="eager" path="assets/img/choice.gif" title="gameplay" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
 
 ## Summary
 MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`. 
