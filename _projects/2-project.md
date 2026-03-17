@@ -24,7 +24,7 @@ MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live car
 
 ---
 
-There are over **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a  commander may have anywhere from **4,000 to that 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
+There are over **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a  commander may have anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
 
 A single commander can have 50–200 cards in their pool. Pair selection follows:
 
@@ -45,8 +45,9 @@ Difficulty is determined by your current streak. Each level filters card pairs b
 | Hard | 6–9 | 1.25× – 1.5× | 8% |
 | Expert | 10–14 | 1.12× – 1.25× | 3% |
 | Nightmare | 15+ | 1.0× – 1.12× | none |
+{: style="margin-left: auto; margin-right: auto;"}
 
-
+<br>
 <small>Thresholds were calibrated empirically — adjusted until each tier felt meaningfully harder than the last. The numbers were tweaked until Easy felt approachable, Nightmare felt unfair, and everything along the way a discernable step up. </small>
 
 <br>
