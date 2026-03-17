@@ -32,10 +32,10 @@ latest_projects:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I write here about economics, discuss my research, and share my projects.
+I write about economics, discuss my research, and share my projects.
 
 My main interests are monetary policy & development economics.
 
-I am in the process of aggregating my economics work on to this site; a larger sample of my work is available via email request!
+I am in the process of aggregating my economics work onto this site; a larger sample of my work is available upon request!
 
 Currently working on research examining intergenerational mobility in the United States during the Reconstruction Era and China's Belt and Road Initiative.
