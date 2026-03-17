@@ -3,7 +3,7 @@ layout: page
 title: Microloans through Intermediaries
 description: Microloans and local intermediaries as an approach to constrained farm credit systems in Sub-Saharan Africa
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 # date: 2025-12-20
 category: developmental
 giscus_comments: false
