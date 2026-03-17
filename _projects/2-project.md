@@ -39,7 +39,7 @@ Most of these are useless at a given the difficulty tier. The interesting part i
 Difficulty is determined by your current streak. Each level filters card pairs by an **inclusion ratio** (how close the two cards are in popularity) and a **minimum inclusion floor** (ensuring at least one card is relatively well-known).
 
 | Level | Streak | Ratio Band | Min Inclusion |
-|-----------|--------|------------|---------------|
+|-----------|--------|------------|---:|
 | Easy | 0–2 | 2.0× and above | 30% |
 | Medium | 3–5 | 1.5× – 2.0× | 15% |
 | Hard | 6–9 | 1.25× – 1.5× | 8% |
