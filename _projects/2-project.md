@@ -63,6 +63,7 @@ $$r = \frac{\max(i_A,\ i_B)}{\min(i_A,\ i_B)}$$
 $$f = \frac{n_{\text{decks}}}{n_{\text{potential}}}$$
 
 <br>
+
 **Shifting rates**  
 Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands are made for this, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game.
 
