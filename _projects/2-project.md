@@ -7,8 +7,6 @@ importance: 4
 category: fun
 giscus_comments: false
 ---
-
-## MTG Cascade — Technical Reference
 [Check it out here!](https://mcgeever1.github.io/mtg-cascade/) |  [Repo](https://github.com/mcgeever1/mtg-cascade)
 
 <div class="row">
@@ -43,6 +41,7 @@ Difficulty is determined by your current streak. Each level filters card pairs b
 | Hard | 6–9 | 1.25× – 1.5× | 8% |
 | Expert | 10–14 | 1.12× – 1.25× | 3% |
 | Nightmare | 15+ | 1.0× – 1.12× | none |
+
 
 <small>Thresholds were calibrated empirically — adjusted until each tier felt meaningfully harder than the last. The numbers were tweaked until Easy felt approachable, Nightmare felt unfair, and everything along the way a discernable step up. </small>
 
