@@ -9,11 +9,32 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.S. in Economics
-      institution: Northeastern University, Boston, MA
-      year: Expected 2026
+    - title: B.S. in Economics, Minor in Data Science
+      institution: Northeastern University
+      location: Boston, MA
+      year: May 2027
+      honors: "Dean's List | Omicron Delta Epsilon | URI CSSH Grant"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant – Prof. Shariq Mohammed
+      header: Current
+      institution: Northeastern University
+      location: Boston, MA
+      year: ""
       description:
-        - Focus on Monetary Policy, Intergenerational Mobility, and Macro Econometrics
+        - Conducted comprehensive literature review of 40+ studies on birth seasonality, synthesizing findings across economics, psychology, and public health to identify research gaps
+        - Replicated existing code from GitHub repositories to apply econometric models to project data, building hands-on experience with difference-in-differences and fixed effects regressions
+        - Organized and formatted a bibliography of over 90 sources
+    - title: Primary Research Co-op – PIPE Vantage
+      header: Boston Consulting Group
+      institution: Boston Consulting Group
+      location: Boston, MA
+      year: Jul–Dec 2025
+      description:
+        - Developed recession sensitivity tool indexing 60 historical PE cases to model sector-specific impacts on portfolio companies
+        - Supported 10+ private equity due diligence cases across multiple sectors
 
 - title: Research Interests
   type: nested_list
@@ -37,3 +58,16 @@
     - title: Microloans through Intermediaries
       year: 2024
       description: Policy analysis of agricultural credit systems in Sub-Saharan Africa
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python (pandas, statsmodels), Stata, R, Git, APIs, GitHub, Excel (VBA, PivotTables), Tableau, Web Scraping
+    - title: Analysis
+      items:
+        - Econometric Analysis, Regression Analysis (DID, Fixed Effects, RD)
+    - title: Languages
+      items:
+        - Elementary German

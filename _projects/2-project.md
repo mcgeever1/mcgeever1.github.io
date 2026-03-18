@@ -2,9 +2,10 @@
 layout: page
 title: MTG Cascade
 description: A zero-dependency browser game that tests your knowledge of Magic the Gathering card popularity
-img: assets/img/choice.gif
+img: assets/img/Cascade_thumbanil.jpg
 importance: 4
 category: fun
+skills: [JavaScript, HTML/CSS, Git]
 giscus_comments: false
 ---
 <div style="margin: 0.4rem 0 1.5rem 0;">
