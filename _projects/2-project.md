@@ -82,7 +82,7 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
 
 ## Edge Cases
 
-The game pulls from ~1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have deep, well-distributed pools. Niche commanders from older or fringe sets might only have 12 eligible cards total — the 6-step fallback exists entirely because of this variance. Some commanders simply can't generate enough distinct pairs and have to be silently dropped mid-session.
+The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have deep, well-distributed pools. Niche commanders from older or fringe sets might only have 12 eligible cards total — the 6-step fallback exists entirely because of this variance. Some commanders simply can't generate enough distinct pairs and have to be silently dropped mid-session.
 
 **Small card pools — 6-step fallback:**  
 1. Find pairs matching exact difficulty band + popularity floor (excluding recently seen cards)  
