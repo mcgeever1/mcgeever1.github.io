@@ -34,6 +34,11 @@ $$\binom{n}{2} = \frac{n(n-1)}{2}$$
 meaning a 200-card pool generates up to **19,900 possible pairs**.
 
 Most of these are useless at a given the difficulty tier. The interesting part is tuning the model to display compelling matchups.
+<div style="width: 100%; height: 460px; overflow: hidden; margin-top: 30px;">
+  <img src="{{ '/assets/img/great_hart_Christopher_Moeller.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
+</div>
+
+---
 
 ## Difficulty Scaling
 
@@ -68,6 +73,11 @@ $$f = \frac{n_{\text{decks}}}{n_{\text{potential}}}$$
 **Shifting rates**  
 Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands are made for this, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game.
 
+
+<div style="width: 100%; height: 400px; overflow: hidden;">
+  <img src="{{ '/assets/img/Burdett-Ancient_Carp.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 66%;" />
+</div>
+
 ---
 
 ## Edge Cases
@@ -97,6 +107,12 @@ Partner commanders have split EDHREC pages — the pool for "Tymna + Tana" is di
 Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit filtering, these would dominate pairs at every difficulty level. The inclusion of lands undercuts the strategic intuition the game rests on.
 
 **Failed commander data:** The commander is dropped from the session pool and won't be retried.
+
+
+<div style="width: 100%; height: 400px; overflow: hidden;">
+  <img src="{{ '/assets/img/RainofSalt_Adam_Rex.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
+</div>
+
 
 ---
 
@@ -131,5 +147,10 @@ choice.gif       # gameplay demo
 At startup the app fetches the latest popular commanders from EDHREC (3 paginated pages). If that fails it falls back to a hardcoded list of 248 commanders. The player never sees an error.
 
 **New partners** added to EDHREC must be manually added to `PARTNER_SLUGS` in `renderer.js`.
+
+
+<div style="width: 100%; height: 400px; overflow: hidden;">
+  <img src="{{ '/assets/img/Mox_Opal.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
+</div>
 
 ---
