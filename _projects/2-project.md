@@ -144,7 +144,7 @@ choice.gif       # gameplay demo
 - `https://json.edhrec.com/pages/commanders/{slug}.json` — deck stats
 - `https://api.scryfall.com/cards/named?exact={name}` — card data
 
-At startup the app fetches the latest popular commanders from EDHREC (3 paginated pages). If that fails it falls back to a hardcoded list of 248 commanders. The player never sees an error.
+At startup the app fetches the latest popular commanders from EDHREC (3 paginated pages). If that fails it falls back to a hardcoded list of 248 commanders. The player doesn't sees an error.
 
 **New partners** added to EDHREC must be manually added to `PARTNER_SLUGS` in `renderer.js`.
 
