@@ -2,7 +2,7 @@
 layout: page
 title: MTG Cascade
 description: A zero-dependency browser game that tests your knowledge of Magic the Gathering card popularity
-img: assets/img/Cascade_thumbanil.jpg
+img: assets/img/Cascade_thumbnail.jpg
 importance: 4
 category: fun
 skills: [JavaScript, HTML/CSS, Git]
@@ -13,19 +13,18 @@ giscus_comments: false
   <a href="https://github.com/mcgeever1/mtg-cascade" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github fa-lg"></i></a>
 </div>
 
+## Summary
+MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`.
+
 <div class="row">
   <div class="col-sm">
     {% include figure.liquid loading="eager" path="assets/img/choice.gif" title="gameplay" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
-
-## Summary
-MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`. 
-
 ---
 
-There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a  commander may have anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
+There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a commander may have anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
 
 A single commander can have 50–200 cards in their pool. Pair selection follows:
 
@@ -54,7 +53,7 @@ Difficulty is determined by your current streak. Each level filters card pairs b
 {: style="margin-left: auto; margin-right: auto;"}
 
 <br>
-<small>Thresholds were calibrated empirically — adjusted until each tier felt meaningfully harder than the last. The numbers were tweaked until Easy felt approachable, Nightmare felt unfair, and everything along the way a discernable step up. </small>
+<small>Thresholds were calibrated empirically — adjusted until each tier felt meaningfully harder than the last. The numbers were tweaked until Easy felt approachable, Nightmare felt unfair, and everything along the way a discernible step up. </small>
 
 <br>
 
@@ -70,7 +69,8 @@ $$f = \frac{n_{\text{decks}}}{n_{\text{potential}}}$$
 
 <br>
 
-**Shifting rates**  
+---
+## Shifting rates 
 Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands are made for this, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game.
 
 
@@ -118,7 +118,7 @@ Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit 
 
 ## Stateless
 
-The choice to avoid a custom backend was deliberate. I wanted something I could pick up quick and put down just as fast. The entire game is just four files. It can be run locally with a one line python server. 
+The choice to avoid a custom backend was deliberate. I wanted something I could pick up quick and put down just as fast. The entire game is just four files. It can be run locally with a one-line Python server. 
 
 ## Local Development
 
