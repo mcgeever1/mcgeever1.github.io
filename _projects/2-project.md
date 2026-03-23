@@ -132,7 +132,7 @@ python3 -m http.server 8000
 
 Or use `npx serve .` or VS Code's Live Server extension.
 
-**File structure:**
+**Necessary structure:**
 ```
 index.html       # entry point
 renderer.js      # all game logic (~812 lines)
