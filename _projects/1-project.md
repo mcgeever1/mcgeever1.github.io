@@ -13,11 +13,12 @@ giscus_comments: false
 
     Abstract: Smallholder farmers in Sub-Saharan Africa face persistent barriers to adopting high-impact agricultural technologies due to credit constraints and information asymmetries that exclude them from formal lending markets. This policy note proposes a microloan intervention administered through local intermediaries to enable investment modern inputs. Evidence from demand-side credit constraints in Nigeria suggests that microloans targeting the most expensive, productivity-enhancing inputs can substantially increase technology adoption while generating demonstration effects that accelerate broader uptake. If successful, such interventions could drive agricultural productivity improvements with particularly large poverty-reduction effects, as estimates indicate farm productivity gains are 11 times more poverty-reducing than growth in other sectors.
 
-<div class="row">
-  <div class="col-sm">
-    {% include figure.liquid loading="eager" path="assets/img/MLSSA3.jpg" title="cultivated farmland" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
+  <img src="{{ '/assets/img/MLSSA3.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A smallholder goats in the mountains near Shiikh, Somaliland. Robin Hammond / National Geographic</span>
+
+---
 
 ### I. Introduction
 
@@ -25,7 +26,7 @@ As food production, raw resources, and biofuel, support much of world around us,
 
 In the past decade, agricultural productivity has slowed significantly, prompting a serious reason for concern. The cause of this slowdown can be indicated by the decline in TFP, almost 0.8% in comparison to the decade before. This slowdown has been observed globally. 
 
-**Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by a weakness in both the supply and demand of credit.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.[^1] This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
+**Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by a weakness in both the supply and demand of credit.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.<sup>1</sup> This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
 
 ---
 
@@ -33,11 +34,10 @@ In the past decade, agricultural productivity has slowed significantly, promptin
 
 Governments in Sub-Saharan Africa need to support small farmers by providing microloans. Drawing on Uganda's PRIDE program, this intervention would provide micro-loans to smallholder farmers, enabling investment in higher quality seeds, fertilizers, and land expansion. 
 
-<div class="row">
-  <div class="col-sm">
-    {% include figure.liquid loading="lazy" path="assets/img/IFAD Nanjiri Market in Malawi.jpg" title="IFAD Nanjiri Market in Malawi" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
+  <img src="{{ '/assets/img/Liberia_oil_palm_seedlings.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A worker waters oil palm seedlings to be planted in Liberia. Robin Hammond / National Geographic</span>
 
 ---
 
@@ -77,11 +77,10 @@ The program generates outcomes across multiple time horizons. **Immediately**, f
 **Over the extended horizon**, sustained productivity improvements compound through both direct and indirect channels. Directly, expanded credit enables increased input use and adoption of improved technologies. Indirectly, the established financial infrastructure reduces transaction costs and information barriers, generating spillovers that benefit all farmers. These institutional improvements are the basis for durable productivity gains. The successful loan program establishes a self-sustaining microloan market that enables continued credit access and institutional development, supporting sustained agricultural productivity for future participants.
 
 
-<div class="row">
-  <div class="col-sm">
-    {% include figure.liquid loading="eager" path="assets/img/MLSSA1.jpg" title="cultivated farmland 2" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
+  <img src="{{ '/assets/img/MLSSA1.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Alfalfa fields in the River Nile region. Nichole Sobecki / National Geographic</span>
 
 ---
 
@@ -99,18 +98,20 @@ Because lenders cannot value smallholder assets, they cannot use traditional col
 
 If hardships lead to significantly poor yields, whether from extreme weather or blight, loan recovery becomes impossible. Risk-aversion among smallholders poses a genuine constraint: If perceived loan sizes exceed household risk tolerance or expected returns, uptake will be limited, particularly during agricultural downturns when farmers underestimate technology returns. 
 
-These constraints are real, but they are also precisely why this intervention is designed as it is. Local loan officers can assess individual farmer risk profiles and adjust loan terms accordingly. They can build relationships that survive poor harvests. Farmers with insurance coverage or access to reliable extension services are significantly more likely to borrow.[^2] The program's strength lies not in ignoring these constraints but in working within them. Formal lending institutions cannot do this.
+These constraints are real, but they are also precisely why this intervention is designed as it is. Local loan officers can assess individual farmer risk profiles and adjust loan terms accordingly. They can build relationships that survive poor harvests. Farmers with insurance coverage or access to reliable extension services are significantly more likely to borrow.<sup>2</sup> The program's strength lies not in ignoring these constraints but in working within them. Formal lending institutions cannot do this.
+
+<div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
+  <img src="{{ '/assets/img/MLSSA2.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
+</div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A mix of smallholder and larger plantations on farming land outside Maputo, Mozambique. Robin Hammond / National Geographic</span>
+
+<br>
 
 ---
-[^1]: Balana and Oyeyemi (2022), Table 7, find that credit constraints reduce fertilizer adoption (p<0.05) and seed adoption (p<0.001), but not agrochemicals. This differential effect suggests credit is binding specifically for expensive inputs.
 
-[^2]: Balana and Oyeyemi (2022) find that households with insurance coverage are 6.1% less likely to be demand-side credit constrained, suggesting that risk management mechanisms can substantially increase borrowing participation.
+<small><sup>1</sup> Balana and Oyeyemi (2022), Table 7, find that credit constraints reduce fertilizer adoption (p<0.05) and seed adoption (p<0.001), but not agrochemicals. This differential effect suggests credit is binding specifically for expensive inputs.</small>
 
-<div class="row">
-  <div class="col-sm">
-    {% include figure.liquid loading="lazy" path="assets/img/MLSSA2.jpg" title="cultivated farmland" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+<small><sup>2</sup> Balana and Oyeyemi (2022) find that households with insurance coverage are 6.1% less likely to be demand-side credit constrained, suggesting that risk management mechanisms can substantially increase borrowing participation.</small>
 
 ---
 
@@ -127,3 +128,5 @@ Suri, Tavneet, and Christopher Udry. 2022. "Agricultural Technology in Africa." 
 USDA Economic Research Service. "International Agricultural Productivity." https://www.ers.usda.gov/data-products/international-agricultural-productivity/
 
 World Economic Forum. "3 Ways to Transform Agriculture in Africa." https://www.weforum.org/stories/2016/05/3-ways-to-transform-agriculture-in-africa/
+
+---
