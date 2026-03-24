@@ -11,14 +11,13 @@ giscus_comments: false
 ---
 <a href='/assets/pdf/McGeever Ethan Microloans in SSA.pdf'>read the paper here</a>
 
+    Abstract: Smallholder farmers in Sub-Saharan Africa face persistent barriers to adopting high-impact agricultural technologies due to credit constraints and information asymmetries that exclude them from formal lending markets. This policy note proposes a microloan intervention administered through local intermediaries to enable investment modern inputs. Evidence from demand-side credit constraints in Nigeria suggests that microloans targeting the most expensive, productivity-enhancing inputs can substantially increase technology adoption while generating demonstration effects that accelerate broader uptake. If successful, such interventions could drive agricultural productivity improvements with particularly large poverty-reduction effects, as estimates indicate farm productivity gains are 11 times more poverty-reducing than growth in other sectors.
+
 <div class="row">
   <div class="col-sm">
     {% include figure.liquid loading="eager" path="assets/img/MLSSA3.jpg" title="cultivated farmland" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-
-
-    TLDR: Smallholder farmers in Sub-Saharan Africa face persistent barriers to adopting high-impact agricultural technologies due to credit constraints and information asymmetries that exclude them from formal lending markets. This policy note proposes a microloan intervention administered through local intermediaries to enable investment modern inputs. Evidence from demand-side credit constraints in Nigeria suggests that microloans targeting the most expensive, productivity-enhancing inputs can substantially increase technology adoption while generating demonstration effects that accelerate broader uptake. If successful, such interventions could drive agricultural productivity improvements with particularly large poverty-reduction effects, as estimates indicate farm productivity gains are 11 times more poverty-reducing than growth in other sectors.
 
 ### I. Introduction
 
@@ -34,13 +33,13 @@ In the past decade, agricultural productivity has slowed significantly, promptin
 
 Governments in Sub-Saharan Africa need to support small farmers by providing microloans. Drawing on Uganda's PRIDE program, this intervention would provide micro-loans to smallholder farmers, enabling investment in higher quality seeds, fertilizers, and land expansion. 
 
----
-
 <div class="row">
   <div class="col-sm">
     {% include figure.liquid loading="lazy" path="assets/img/IFAD Nanjiri Market in Malawi.jpg" title="IFAD Nanjiri Market in Malawi" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+---
 
 ### III. Motivation/Justification for Proposed Intervention
 
@@ -112,6 +111,8 @@ These constraints are real, but they are also precisely why this intervention is
     {% include figure.liquid loading="lazy" path="assets/img/MLSSA2.jpg" title="cultivated farmland" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+
+---
 
 #### Citations
 
