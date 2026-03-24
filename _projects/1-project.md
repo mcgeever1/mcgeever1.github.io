@@ -127,5 +127,3 @@ Suri, Tavneet, and Christopher Udry. 2022. "Agricultural Technology in Africa." 
 USDA Economic Research Service. "International Agricultural Productivity." https://www.ers.usda.gov/data-products/international-agricultural-productivity/
 
 World Economic Forum. "3 Ways to Transform Agriculture in Africa." https://www.weforum.org/stories/2016/05/3-ways-to-transform-agriculture-in-africa/
-
----
