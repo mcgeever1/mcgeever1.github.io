@@ -12,7 +12,6 @@ giscus_comments: false
   <a href="https://mcgeever1.github.io/mtg-cascade/" target="_blank" title="Live Site" style="margin-right: 0.75rem;"><i class="fa-solid fa-link fa-lg"></i></a>
   <a href="https://github.com/mcgeever1/mtg-cascade" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github fa-lg"></i></a>
 </div>
-
 ## Summary
 MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`.
 
@@ -21,10 +20,11 @@ MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live car
     {% include figure.liquid loading="eager" path="assets/img/choice.gif" title="gameplay" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Example case where Sterling Grove sees 78.8% of play, significantly more then Karametra's Blessing 6.5% usage, within the card pool of Sythis, Harvet's Hand</span>
 
 ---
 
-There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a commander may have anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
+There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a commander may have access to anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
 
 A single commander can have 50–200 cards in their pool. Pair selection follows:
 
@@ -36,6 +36,7 @@ Most of these are useless at a given the difficulty tier. The interesting part i
 <div style="width: 100%; height: 460px; overflow: hidden; margin-top: 30px;">
   <img src="{{ '/assets/img/great_hart_Christopher_Moeller.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Great Hart, illustrated by Christopher Moeller</span>
 
 ---
 
@@ -77,6 +78,7 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Burdett-Ancient_Carp.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 66%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Ancient Carp, illustrated by Christopher Burdett</span>
 
 ---
 
@@ -112,6 +114,7 @@ Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit 
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/RainofSalt_Adam_Rex.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Rain of Salt, illustrated by Adam Rex</span>
 
 
 ---
@@ -152,5 +155,6 @@ At startup the app fetches the latest popular commanders from EDHREC (3 paginate
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Mox_Opal.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Mox Opal, illustrated by Volkan Baga</span>
 
 ---
