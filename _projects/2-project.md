@@ -72,7 +72,7 @@ $$f = \frac{n_{\text{decks}}}{n_{\text{potential}}}$$
 
 ---
 ## Shifting rates 
-Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands are made for this, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game.
+Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands work within this constraint, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game. This also avoids the near impossible task of assigning difficulty values card matchups that accounts for the context of what deck it is played in.
 
 
 <div style="width: 100%; height: 400px; overflow: hidden;">
@@ -84,15 +84,15 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
 
 ## Edge Cases
 
-The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have deep, well-distributed pools. Niche commanders from older or fringe sets might only have 12 eligible cards total — the 6-step fallback exists entirely because of this variance. Some commanders simply can't generate enough distinct pairs and have to be silently dropped mid-session.
+The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have deep, well-distributed pools. Niche commanders from older or fringe sets might only have 12 eligible cards total. Because of this a the 6-step fallback was created to address this variance. Some commanders simply can't generate enough distinct pairs and have to be silently dropped mid-session.
 
 **Small card pools — 6-step fallback:**  
-1. Find pairs matching exact difficulty band + popularity floor (excluding recently seen cards)  
-2. Pool exhausted → clear used pairs, retry same constraints  
-3. Relax upper ratio bound (keep lower bound + floor)  
-4. Relax popularity floor too  
+1. Find pairs matching exact difficulty band + popularity floor (excluding recent pairings, as well as all cards the player has seen too recently)  
+2. Pool exhausted → allow pair repeats, so long as they were not recently shown, retry same constraints  
+3. Still struggling to find matchups, relax upper ratio bound (keep lower bound + floor)  
+4. If still struggling, relax popularity floor too  
 5. Allow recently seen cards  
-6. Last resort: any valid pair  
+6. Last resort: drop difficulty lower bound to 1.0x → any valid pair
 
 <p style="text-align: center;">*Minimum pool size is 10 cards. If a commander can't meet this, it's removed from the session.*</p>
 
@@ -100,9 +100,9 @@ The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have 
 
 Preventing immediate card repeats requires a 2-round exclusion window. But in small pools, that window can exhaust valid pairs entirely. The fallback has to override its own anti-repeat logic, which means the player occasionally will see repeats, letting lesser known cards on the edge of being cut stick around to stump players.
 
-**Partner commanders:** Excluded entirely — their EDHREC pools are pair-dependent and don't work solo. 
+**Partner commanders:** Excluded entirely, their EDHREC pools are pair-dependent and don't work solo. 
 
-Partner commanders have split EDHREC pages — the pool for "Tymna + Tana" is different from "Tymna + Kraum." There's no clean solo slug to fetch, so all 58 known partner slugs had to be hardcoded and excluded rather than handled dynamically.
+Partner commanders have split EDHREC pages. The pool for "Tymna + Tana" is different from "Tymna + Kraum." There's no clean solo slug to fetch, so all 58 known partner slugs had to be hardcoded and excluded rather than handled dynamically.
 
 **Mana rocks & lands:** Excluded to keep pairs strategic. 42 mana rocks are hardcoded; lands and mana artifacts are filtered by section header and type.
 
@@ -125,21 +125,13 @@ The choice to avoid a custom backend was deliberate. I wanted something I could 
 
 ## Local Development
 
-No build tools, no dependencies. Just serve the files over HTTP (direct `file://` access will fail due to CORS).
-
-```bash
-cd mtg-cascade
-python3 -m http.server 8000
-# open http://localhost:8000
-```
-
-Or use `npx serve .` or VS Code's Live Server extension.
+No build tools or dependencies. Just serve the files over HTTP (direct `file://` access will fail due to CORS).
 
 **Necessary structure:**
 ```
 index.html       # entry point
-renderer.js      # all game logic (~812 lines)
-styles.css       # styling (~566 lines)
+renderer.js      # all game logic (~800 lines)
+styles.css       # styling (~550 lines)
 choice.gif       # gameplay demo
 ```
 
@@ -147,10 +139,9 @@ choice.gif       # gameplay demo
 - `https://json.edhrec.com/pages/commanders/{slug}.json` — deck stats
 - `https://api.scryfall.com/cards/named?exact={name}` — card data
 
-At startup the app fetches the latest popular commanders from EDHREC (3 paginated pages). If that fails it falls back to a hardcoded list of 248 commanders. The player doesn't sees an error.
+At startup the app fetches the latest popular commanders from EDHREC. If that fails it falls back to a hardcoded list of 248 commanders. The player doesn't sees an error.
 
 **New partners** added to EDHREC must be manually added to `PARTNER_SLUGS` in `renderer.js`.
-
 
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Mox_Opal.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
