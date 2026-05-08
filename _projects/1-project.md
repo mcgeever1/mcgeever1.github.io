@@ -16,7 +16,7 @@ giscus_comments: false
 <div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
   <img src="{{ '/assets/img/MLSSA3.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A smallholder goats in the mountains near Shiikh, Somaliland. Robin Hammond / National Geographic</span>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A smallholder farmer grazes goats in the mountains near Shiikh, Somaliland. Robin Hammond / National Geographic</span>
 
 ---
 
