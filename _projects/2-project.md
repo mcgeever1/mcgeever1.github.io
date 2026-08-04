@@ -113,9 +113,13 @@ Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit 
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Rain of Salt, illustrated by Adam Rex</span>
 
+<br>
+
 ## Stateless
 
 The choice to avoid a custom backend was deliberate. I wanted something I could pick up quick and put down just as fast. The entire game is just four files. It can be run locally with a one-line Python server. 
+
+<br>
 
 ## Local Development
 

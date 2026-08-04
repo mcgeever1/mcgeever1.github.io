@@ -15,6 +15,8 @@ giscus_comments: false
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
+<br>
+
 ### Introduction
 
 As I've progressed through the math tree, I've had some trouble explaining the applications of new techniques to those in my life with less of a math background. 
@@ -26,6 +28,8 @@ As someone focused in economics, plenty of use cases immediately come to mind. S
 The simpliest answer I have been able to use is always "to build a bridge".  Explaining integrating shapes in 3D space, albeit uninspired from the total beauty of math, gives almost anyone an easily underestandable use for what math allows us to do. 
 
 The idea for this project came in lecture one day, when I was thinking about how vectors could be used to show movement in 3D space. I spent a couple days bringing it to life for the purpose of showing those in my life without a math background some of the applications of the feild beyond.
+
+<br>
 
 ## Technical 
 

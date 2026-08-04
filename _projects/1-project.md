@@ -27,6 +27,8 @@ In the past decade, agricultural productivity has slowed significantly, promptin
 
 **Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by a weakness in both the supply and demand of credit.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.<sup>1</sup> This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
 
+<br>
+
 ### II. Proposed Intervention
 
 Governments in Sub-Saharan Africa need to support small farmers by providing microloans. Drawing on Uganda's PRIDE program, this intervention would provide micro-loans to smallholder farmers, enabling investment in higher quality seeds, fertilizers, and land expansion. 
@@ -36,6 +38,8 @@ Governments in Sub-Saharan Africa need to support small farmers by providing mic
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A worker waters oil palm seedlings to be planted in Liberia. Robin Hammond / National Geographic</span>
 
+<br>
+
 ### III. Motivation/Justification for Proposed Intervention
 
 Without traditional forms of collateral, smallholder farmers lack access to formal credit. Volatile harvests create income shocks with no smoothing mechanism, perpetuating poverty cycles. Microloans enable farmers to capitalize on favorable market conditions and smooth consumption across variable harvests. 
@@ -43,6 +47,8 @@ Without traditional forms of collateral, smallholder farmers lack access to form
 In their analysis of agricultural technology adoption in Africa, Suri and Udry (2022) find that the lower levels of agricultural productivity do not derive from a single binding constraint, but rather a lack of technology customized to the region. However, data from similar African contexts reveals that financial constraints are particularly binding for the costliest, productivity enhancing inputs. Balana and Oyeyemi's (2022) analysis of 5,000 Nigerian smallholders demonstrates that credit constraints significantly reduce adoption of inorganic fertilizer and improved seeds, the two inputs with the highest capital requirements, while adoption of less costly inputs like agrochemicals is not significantly constrained by credit. This intervention therefore targets the most consequential constraint: the upfront cost of high-impact inputs.
 
 This intervention is a means of both growth and sustainability for smallholders, promoting more productive techniques and enabling adoption of global advances to their region. This is a medium-sized intervention, as it will alleviate high upfront costs and assist against the rigidity of labor and land markets, without requiring wholesale institutional reform. If successful, the program could generate positive externalities, demonstration effects and knowledge sharing that encourages broader adoption. Moreover, agricultural growth in SSA is particularly effective at reducing poverty, with estimates suggesting farm productivity gains are 11 times more poverty-reducing than growth in other sectors (World Economic Forum). This makes the intervention's contributions to agricultural GDP especially meaningful for development outcomes. 
+
+<br>
 
 #### Alternative Approaches
 
@@ -52,6 +58,7 @@ Empirical evidence from Nigeria identifies specific demand-side barriers that pr
 
 Microfinance intermediaries, staffed with local knowledge, overcome this information barrier directly. By reducing information asymmetries, lowering transaction costs through proximity, and building trust relationships that mitigate risk perceptions, they enable credit assessment where formal institutions cannot. 
 
+<br>
 
 ### IV. Theory of Change
 
@@ -65,6 +72,8 @@ This caution reflects rational responses to genuine agricultural risks. Weather 
 
 The inputs of this intervention are government-allotted microloans to smallholders, administered through local loan officers who assess borrower creditworthiness and manage repayment. 
 
+<br>
+
 #### Program Outcomes Across Time Horizons
 
 The program generates outcomes across multiple time horizons. **Immediately**, farmers use microloans to adopt improved seeds, fertilizers, and expand land under cultivation. **Within the first few years**, these investments translate into higher yields. As early adopters demonstrate success, neighboring farmers adopt improved techniques, creating demonstration effects that accelerate uptake. 
@@ -77,10 +86,13 @@ The program generates outcomes across multiple time horizons. **Immediately**, f
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Alfalfa fields in the River Nile region. Nichole Sobecki / National Geographic</span>
 
+<br>
 
 ### V. Potential to Succeed and Possible Caveats
 
 This intervention can succeed because it is not constrained by rigid collateral requirements of traditional financial institutions, nor does it depend on existing rural infrastructure for input distribution. 
+
+<br>
 
 #### Implementation Challenges
 
