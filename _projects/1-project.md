@@ -18,8 +18,6 @@ giscus_comments: false
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A smallholder farmer grazes goats in the mountains near Shiikh, Somaliland. Robin Hammond / National Geographic</span>
 
----
-
 ### I. Introduction
 
 As food production, raw resources, and biofuel, support much of world around us, sustained agriculture productivity growth is necessary to meet rising global demand. Over the past six decades, world agricultural output has increased at an annual rate of 2.3%, while input use has only grown 1.2% (USDA). This comes with the increase of productivity in the sector, spearheaded by the adoption of modern farming techniques, represented by a 1.1% increase in total factor productivity. Globally, continued gains in TFP have kept us above our break-even point, and has continued to do so with the implementation of modern farming techniques in less developed regions. 
@@ -28,7 +26,7 @@ In the past decade, agricultural productivity has slowed significantly, promptin
 
 **Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by a weakness in both the supply and demand of credit.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.<sup>1</sup> This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
 
----
+
 
 ### II. Proposed Intervention
 
@@ -39,7 +37,7 @@ Governments in Sub-Saharan Africa need to support small farmers by providing mic
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A worker waters oil palm seedlings to be planted in Liberia. Robin Hammond / National Geographic</span>
 
----
+
 
 ### III. Motivation/Justification for Proposed Intervention
 
@@ -57,7 +55,7 @@ Empirical evidence from Nigeria identifies specific demand-side barriers that pr
 
 Microfinance intermediaries, staffed with local knowledge, overcome this information barrier directly. By reducing information asymmetries, lowering transaction costs through proximity, and building trust relationships that mitigate risk perceptions, they enable credit assessment where formal institutions cannot. 
 
----
+
 ### IV. Theory of Change
 
 The long-term goal of this intervention is to increase agricultural productivity by lowering the barriers to technology adoption. The binding constraint is twofold: smallholders lack the upfront capital to purchase high-impact inputs like improved seeds and fertilizers, and weak financial infrastructure means formal credit markets cannot serve them due to missing collateral and information asymmetries.
@@ -82,7 +80,7 @@ The program generates outcomes across multiple time horizons. **Immediately**, f
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Alfalfa fields in the River Nile region. Nichole Sobecki / National Geographic</span>
 
----
+
 
 ### V. Potential to Succeed and Possible Caveats
 

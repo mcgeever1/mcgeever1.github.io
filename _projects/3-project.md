@@ -15,12 +15,22 @@ giscus_comments: false
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
-### Intro
+### Introduction
 
-As I've progressed through the math tree, I've foind more and more trouble explaining the applications of new techniques to those in my life with less of a math background. 
+As I've progressed through the math tree, I've had some trouble explaining the applications of new techniques to those in my life with less of a math background. 
 
-On my first dinner home each semester I would be asked how I was liking my courses and what I was learning, and then the dreaded "Ok but what would you actually do with that?". 
+What would I actually do with advanced calculus? What would I actually do with linear algebra?
 
-What would I actually do with advanced calculus? What would I actually do with linear algebra? 
+As someone focused in economics, plenty of use cases immediately come to mind. Speaking with those in my life outside of it, I try to distill it into one or two tangible examples. 
 
-These aren't asked out of ignorance or a disliking of math. Its just a 
+The simpliest answer I have been able to use is always "to build a bridge".  Explaining integrating shapes in 3D space, albeit uninspired from the total beauty of math, gives almost anyone an easily underestandable use for what math allows us to do. 
+
+The idea for this project came in lecture one day, when I was thinking about how vectors could be used to show movement in 3D space. I spent a couple days bringing it to life for the purpose of showing those in my life without a math background some of the applications of the feild beyond.
+
+## Technical 
+
+repo structure:
+- flock.py <--- all behavior for the birds
+- visualizations.py <--- shows bird movement and presentation functions
+
+This is a 3D boids simulation written in python, using Numpy and Matplotlib. Birds are only given local perception, only noticing other birds and boundaries within their viewcone. All group behavior comes from local rules set to mimic bird knowledge (avoid collisions, fly with the flock, stay close). Rendered live, each bird is shown as a small pyramid with its apex acting as the nose. Presentation functions such as speed controls and a highlighting mode are used for presenting.
