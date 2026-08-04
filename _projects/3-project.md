@@ -2,7 +2,7 @@
 layout: page
 title: Simulating bird flock patters with linear algebra
 description: Mapping Bird Murmations to xyz vectorspace as a "non-math" friendly approach to linear algebra.
-img: assets/img/Murmurations_4.avif
+img: assets/img/murmurations_4.avif
 thumbnail_position: center 50%
 importance: 1
 # date: 2026-8-1
@@ -12,7 +12,7 @@ giscus_comments: false
 ---
 
 <div style="width: 100%; height: auto; overflow: hidden; margin-top: 30px;">
-  <img src="{{ '/assets/img/Murmurations_4.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
+  <img src="{{ '/assets/img/murmurations_4.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
