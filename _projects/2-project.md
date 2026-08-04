@@ -16,8 +16,8 @@ giscus_comments: false
 ## Summary
 MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`.
 
-<div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
-  <img src="{{ '/assets/img/Cascade_thumbnail.webp' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
+<div style="width: 100%; margin-top: 30px;">
+  <img src="{{ '/assets/img/Cascade_thumbnail.webp' | relative_url }}" style="width: 100%; height: auto;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Eirdu, Carrier of Dawn by Lucas Graciano</span>
 
