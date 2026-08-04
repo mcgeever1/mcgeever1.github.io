@@ -10,7 +10,7 @@ skills: [Math, Coding, Teaching]
 giscus_comments: false
 ---
 
-<div style="width: 100%; height: 400px; overflow: hidden; margin-top: 30px;">
+<div style="width: 100%; height: 100%; overflow: hidden; margin-top: 30px;">
   <img src="{{ '/assets/img/Murmurations_2.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
