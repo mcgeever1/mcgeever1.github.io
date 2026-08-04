@@ -9,6 +9,7 @@ category: developmental
 skills: [Development Economics, Literature Review]
 giscus_comments: false
 ---
+
 <a href='/assets/pdf/McGeever Ethan Microloans in SSA.pdf'>read the paper here</a>
 
     Abstract: Smallholder farmers in Sub-Saharan Africa face persistent barriers to adopting high-impact agricultural technologies due to credit constraints and information asymmetries that exclude them from formal lending markets. This policy note proposes a microloan intervention administered through local intermediaries to enable investment in modern inputs. Evidence from demand-side credit constraints in Nigeria suggests that microloans targeting the most expensive, productivity-enhancing inputs can substantially increase technology adoption while generating demonstration effects that accelerate broader uptake. If successful, such interventions could drive agricultural productivity improvements with particularly large poverty-reduction effects, as estimates indicate farm productivity gains are 11 times more poverty-reducing than growth in other sectors.
@@ -26,8 +27,6 @@ In the past decade, agricultural productivity has slowed significantly, promptin
 
 **Sub-Saharan Africa (SSA) controls a quarter of the world's arable land but produces only a tenth of global output: a gap rooted in slow technology adoption. A major barrier to raising regional productivity is the upfront costs of adopting modern farming techniques, driven by a weakness in both the supply and demand of credit.** Empirical evidence from similar SSA contexts demonstrates that credit constraints particularly limit adoption of the most costly, high-impact inputs, namely improved seed and inorganic fertilizer, while less expensive technologies like agrochemicals achieve higher adoption rates regardless of credit access.<sup>1</sup> This suggests that financial barriers specifically block access to the most productivity-enhancing technologies.
 
-
-
 ### II. Proposed Intervention
 
 Governments in Sub-Saharan Africa need to support small farmers by providing microloans. Drawing on Uganda's PRIDE program, this intervention would provide micro-loans to smallholder farmers, enabling investment in higher quality seeds, fertilizers, and land expansion. 
@@ -36,8 +35,6 @@ Governments in Sub-Saharan Africa need to support small farmers by providing mic
   <img src="{{ '/assets/img/Liberia_oil_palm_seedlings.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">A worker waters oil palm seedlings to be planted in Liberia. Robin Hammond / National Geographic</span>
-
-
 
 ### III. Motivation/Justification for Proposed Intervention
 
@@ -81,7 +78,6 @@ The program generates outcomes across multiple time horizons. **Immediately**, f
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Alfalfa fields in the River Nile region. Nichole Sobecki / National Geographic</span>
 
 
-
 ### V. Potential to Succeed and Possible Caveats
 
 This intervention can succeed because it is not constrained by rigid collateral requirements of traditional financial institutions, nor does it depend on existing rural infrastructure for input distribution. 
@@ -105,13 +101,9 @@ These constraints are real, but they are also precisely why this intervention is
 
 <br>
 
----
-
 <small><sup>1</sup> Balana and Oyeyemi (2022), Table 7, find that credit constraints reduce fertilizer adoption (p<0.05) and seed adoption (p<0.001), but not agrochemicals. This differential effect suggests credit is binding specifically for expensive inputs.</small>
 
 <small><sup>2</sup> Balana and Oyeyemi (2022) find that households with insurance coverage are 6.1% less likely to be demand-side credit constrained, suggesting that risk management mechanisms can substantially increase borrowing participation.</small>
-
----
 
 #### Citations
 
@@ -126,5 +118,3 @@ Suri, Tavneet, and Christopher Udry. 2022. "Agricultural Technology in Africa." 
 USDA Economic Research Service. "International Agricultural Productivity." https://www.ers.usda.gov/data-products/international-agricultural-productivity/
 
 World Economic Forum. "3 Ways to Transform Agriculture in Africa." https://www.weforum.org/stories/2016/05/3-ways-to-transform-agriculture-in-africa/
-
----

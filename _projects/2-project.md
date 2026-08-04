@@ -70,7 +70,6 @@ $$f = \frac{n_{\text{decks}}}{n_{\text{potential}}}$$
 
 <br>
 
----
 ## Shifting rates 
 Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands work within this constraint, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game. This also avoids the near impossible task of assigning difficulty values card matchups that accounts for the context of what deck it is played in.
 
@@ -79,8 +78,6 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
   <img src="{{ '/assets/img/Burdett-Ancient_Carp.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 66%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Ancient Carp, illustrated by Christopher Burdett</span>
-
----
 
 ## Edge Cases
 
@@ -116,9 +113,6 @@ Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit 
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Rain of Salt, illustrated by Adam Rex</span>
 
-
----
-
 ## Stateless
 
 The choice to avoid a custom backend was deliberate. I wanted something I could pick up quick and put down just as fast. The entire game is just four files. It can be run locally with a one-line Python server. 
@@ -147,5 +141,3 @@ At startup the app fetches the latest popular commanders from EDHREC. If that fa
   <img src="{{ '/assets/img/Mox_Opal.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Mox Opal, illustrated by Volkan Baga</span>
-
----
