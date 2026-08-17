@@ -9,14 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "projects-mtg-cascade",
-          title: 'MTG Cascade',
-          description: "A Magic the Gathering browser game that tests your knowledge of card popularity",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2-project";
-            },},{id: "projects-simulating-bird-flock-patters-with-linear-algebra",
+  },{id: "projects-simulating-bird-flock-patters-with-linear-algebra",
           title: 'Simulating bird flock patters with linear algebra',
           description: "Mapping Bird Murmations to xyz vectorspace as a &quot;non-math&quot; friendly approach to linear algebra.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3-project";
+              window.location.href = "/projects/birds";
+            },},{id: "projects-mtg-cascade",
+          title: 'MTG Cascade',
+          description: "A Magic the Gathering browser game that tests your knowledge of card popularity",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cascade";
             },},];
