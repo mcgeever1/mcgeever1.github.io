@@ -11,6 +11,11 @@ skills: [Math, Coding, Teaching]
 giscus_comments: false
 ---
 
+<div style="margin: 0.4rem 0 1.5rem 0;">
+  <a href="https://github.com/mcgeever1/birds" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github fa-lg"></i></a>
+</div>
+
+
 <div style="width: 100%; height: auto; overflow: hidden; margin-top: 30px;">
   <img src="{{ '/assets/img/murmurations_4.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
@@ -42,8 +47,8 @@ The idea for this project came in lecture one day, when I was thinking about how
 ## Technical 
 
 repo structure:
-- flock.py <--- all behavior for the birds
-- visualizations.py <--- shows bird movement and presentation functions
+- flock.py          --- all behavior for the birds
+- visualizations.py --- shows bird movement and presentation functions
 
 This is a 3D boids simulation written in python, using Numpy and Matplotlib. Birds are only given local perception, only noticing other birds and boundaries within their viewcone. All group behavior comes from local rules set to mimic bird knowledge (avoid collisions, fly with the flock, stay close). Rendered live, each bird is shown as a small pyramid with its apex acting as the nose. Presentation functions such as speed controls and a highlighting mode are used for presenting.
 
