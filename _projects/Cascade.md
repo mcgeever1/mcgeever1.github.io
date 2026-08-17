@@ -77,9 +77,9 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
 
 
 <div style="width: 100%; height: 400px; overflow: hidden;">
-  <img src="{{ '/assets/img/Burdett-Ancient_Carp.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 66%;" />
+  <img src="{{ '/assets/img/Andrew_Mar_Avalanche.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 66%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Ancient Carp, illustrated by Christopher Burdett</span>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Ride the Avalanche, illustrated by Andrew Mar</span>
 
 ## Edge Cases
 
@@ -111,21 +111,15 @@ Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit 
 
 
 <div style="width: 100%; height: 400px; overflow: hidden;">
-  <img src="{{ '/assets/img/RainofSalt_Adam_Rex.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
+  <img src="{{ '/assets/img/Patchwork_Banner.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Rain of Salt, illustrated by Adam Rex</span>
-
-<br>
-
-## Stateless
-
-The choice to avoid a custom backend was deliberate. I wanted something I could pick up quick and put down just as fast. The entire game is just four files. It can be run locally with a one-line Python server. 
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Patchwork Banner, illustrated by Sarah Finnigan</span>
 
 <br>
 
 ## Local Development
 
-No build tools or dependencies. Just serve the files over HTTP (direct `file://` access will fail due to CORS).
+No build tools or dependencies. Just serve the files over HTTP.
 
 **Necessary structure:**
 ```
@@ -139,16 +133,11 @@ choice.gif       # gameplay demo
 - `https://json.edhrec.com/pages/commanders/{slug}.json` — deck stats
 - `https://api.scryfall.com/cards/named?exact={name}` — card data
 
-At startup the app fetches the latest popular commanders from EDHREC. If that fails it falls back to a hardcoded list of 248 commanders. The player doesn't sees an error.
+At startup the app fetches the latest popular commanders from EDHREC. If that fails it falls back to a hardcoded list of 248 commanders. This makes sure the player won't see an error.
 
-**New partners** added to EDHREC must be manually added to `PARTNER_SLUGS` in `renderer.js`.
+**New partner commanders** added to EDHREC must be manually added to `PARTNER_SLUGS` in `renderer.js`. Without this the fetch will fail.
 
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Mox_Opal.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Mox Opal, illustrated by Volkan Baga</span>
-
-<div style="width: 100%; height: 460px; overflow: hidden; margin-top: 30px;">
-  <img src="{{ '/assets/img/great_hart_Christopher_Moeller.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
-</div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Great Hart, illustrated by Christopher Moeller</span>
