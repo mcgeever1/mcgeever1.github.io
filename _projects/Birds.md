@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Simulating bird flock patters with linear algebra
-description: Mapping Bird Murmations to xyz vectorspace as a "non-math" friendly approach to linear algebra.
+description: Mapping Bird Murmations to xyz vectorspace as a "non-math" friendly approach to linear algebra
 img: assets/img/murmurations_4.avif
 thumbnail_position: center 50%
 importance: 1
