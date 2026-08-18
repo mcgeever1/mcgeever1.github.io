@@ -40,7 +40,7 @@ The idea for this project came in lecture one day, when I was thinking about how
 <br>
 
 <div style="width: 100%; height: 100%; overflow: hidden;">
-  <img src="{{ '/assets/img/murmurations_1.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
+  <img src="{{ '/assets/img/Murmurations_1.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
