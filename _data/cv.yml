@@ -53,12 +53,12 @@
         - Applied econometric methods for macroeconomic analysis
         - Time series analysis and forecasting
 
-- title: Projects
-  type: time_table
-  contents:
-    - title: Microloans through Intermediaries
-      year: 2024
-      description: Policy analysis of agricultural credit systems in Sub-Saharan Africa
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: Microloans through Intermediaries
+#       year: 2024
+#       description: Policy analysis of agricultural credit systems in Sub-Saharan Africa
 
 - title: Skills
   type: nested_list
