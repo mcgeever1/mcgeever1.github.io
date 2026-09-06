@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Ethan J. McGeever
+      value: Ethan McGeever
     - name: Languages
       value: English
 
@@ -20,7 +20,7 @@
   type: time_table
   contents:
     - title: Research Assistant – Prof. Shariq Mohammed
-      header: Current
+      header: May - Sept 2025
       institution: Northeastern University
       location: Boston, MA
       year: ""
@@ -32,7 +32,7 @@
       header: Boston Consulting Group
       institution: Boston Consulting Group
       location: Boston, MA
-      year: Jul–Dec 2025
+      year: Jul – Dec 2025
       description:
         - Developed recession sensitivity tool indexing 60 historical PE cases to model sector-specific impacts on portfolio companies
         - Supported 10+ private equity due diligence cases across multiple sectors

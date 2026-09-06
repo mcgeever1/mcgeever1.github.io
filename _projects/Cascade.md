@@ -1,11 +1,11 @@
 ---
 layout: page
-title: MTG Cascade
+title: Cascade
 description: A Magic the Gathering browser game that tests your knowledge of card popularity
 img: assets/img/Cascade_thumbnail.webp
 importance: 4
 category: fun
-skills: [JavaScript, HTML/CSS, Git]
+skills: [JavaScript, HTML/CSS]
 giscus_comments: false
 ---
 
@@ -14,7 +14,9 @@ giscus_comments: false
   <a href="https://github.com/mcgeever1/mtg-cascade" target="_blank" title="GitHub Repo"><i class="fa-brands fa-github fa-lg"></i></a>
 </div>
 ## Summary
-MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`.
+Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`.
+
+*Disclaimer: this project was made with assistance from Claude Code.*
 
 <div style="width: 100%; margin-top: 30px;">
   <img src="{{ '/assets/img/Cascade_thumbnail.webp' | relative_url }}" style="width: 100%; height: auto;" />
@@ -22,7 +24,6 @@ MTG Cascade is a zero-dependency browser game (HTML/CSS/JS). It fetches live car
 <span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Eirdu, Carrier of Dawn by Lucas Graciano</span>
 
 <br>
-
 There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a commander may have access to anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
 
 A single commander can have 50–200 cards in their pool. Pair selection follows:
