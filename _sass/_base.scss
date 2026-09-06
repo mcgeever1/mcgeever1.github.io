@@ -2,6 +2,12 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Global typeface
+body {
+  font-family: "Spectral", serif;
+}
+
+
 // Left-align all pages, full-width with consistent side padding
 [role="main"].container,
 nav .container {
