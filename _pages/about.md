@@ -34,7 +34,7 @@ latest_projects:
 
 This is my portfolio website!
 
-My main interests are monetary policy & development economics.
+My main research interests are monetary policy, financial markets, and the macroeconomy.
 
 I am in the process of aggregating my economics work onto this site; a larger sample of my work is available upon request!
 
