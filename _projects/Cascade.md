@@ -15,7 +15,7 @@ giscus_comments: false
 </div>
 
 ## Summary
-[Cascade](https://mcgeever1.github.io/mtg-cascade/) is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved to `localStorage`.
+[Cascade](https://mcgeever1.github.io/mtg-cascade/) is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved locally.
 
 *Disclaimer: this project was made with assistance from Claude Code.*
 

@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: mcgeever1
-blog_description: Writings on economics news and research
+blog_description: personal portfolio
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
