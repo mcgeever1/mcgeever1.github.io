@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Simulating bird flock patters with linear algebra
-description: Mapping Bird Murmations to xyz vectorspace as a "non-math" friendly approach to linear algebra
+title: Simulating bird flock patterns with linear algebra
+description: Mapping Bird Murmurations to xyz vectorspace as a "non-math" friendly approach to linear algebra
 img: assets/img/murmurations_4.avif
 thumbnail_position: center 50%
 importance: 1
@@ -31,7 +31,7 @@ What would I actually do with advanced calculus? What about linear algebra?
 
 Within economics, plenty of use cases immediately come to mind. Speaking with those in my life outside of it, I try to distill it into one or two tangible examples. 
 
-The simpliest answer for calculus has always ben "to build a bridge".  Explaining integrating shapes in 3D space, albeit uninspired from the total beauty of math, gives almost anyone an easily underestandable use for what math allows us to do. 
+The simplest answer for calculus has always been "to build a bridge".  Explaining integrating shapes in 3D space, albeit uninspired from the total beauty of math, gives almost anyone an easily underestandable use for what math allows us to do. 
 
 Linear algebra, equally beautiful and interesting, is slightly harder to de-abstract into layman's terms. My professor found the same problem when I asked in office hours.
 
@@ -66,7 +66,7 @@ This is a 3D boids simulation written in python, using Numpy and Matplotlib. Bir
 Speed Controls: 
 - toggle between '1' (1x), '2' (2x), '3' (3x), and '5' (0.25x) speed
 - pause with '0'
-- "H" is highlight mode, used to present an intutive understanding of vectors and bird behavior
+- "H" is highlight mode, used to present an intuitive understanding of vectors and bird behavior
 - panning enabled with mouse
 
 Interest for this project came from The Sibley Guide to Birds by David Sibley.

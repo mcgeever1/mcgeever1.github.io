@@ -15,7 +15,7 @@ giscus_comments: false
 </div>
 
 ## Summary
-[Cascade](https://mcgeever1.github.io/mtg-cascade/) is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Cardbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved locally.
+[Cascade](https://mcgeever1.github.io/mtg-cascade/) is a zero-dependency browser game (HTML/CSS/JS). It fetches live card popularity data from EDHREC (A MTG Deckbuilding database) and card data (images, text, type) from Scryfall. Difficulty increases as your streak grows by narrowing the gap between the two cards presented. A wrong answer resets your streak and loads a new commander. Best streak is saved locally.
 
 *Disclaimer: this project was made with assistance from Claude Code.*
 
@@ -40,7 +40,7 @@ Most of these are useless at a given the difficulty tier. The interesting part i
     {% include figure.liquid loading="eager" path="assets/img/choice.gif" title="gameplay" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Example case where Sterling Grove sees 78.8% of play, significantly more then Karametra's Blessing 6.5% usage, within the card pool of Sythis, Harvet's Hand</span>
+<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Example case where Training Grounds is in 11,584 decks, 36.7% of total Kenrith decks. This is significantly more than Force of Negations's 3,012 decks, or 9.5% of Kenrith decks.</span>
 
 <br>
 
@@ -85,7 +85,7 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
 
 ## Edge Cases
 
-The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have deep, well-distributed pools. Niche commanders from older or fringe sets might only have 12 eligible cards total. Because of this a the 6-step fallback was created to address this variance. Some commanders simply can't generate enough distinct pairs and have to be silently dropped mid-session.
+The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have deep, well-distributed pools. Niche commanders from older or fringe sets might only have 12 eligible cards total. Because of this, a 6-step fallback is used to address this variance. Some commanders simply can't generate enough distinct pairs and have to be silently dropped mid-session.
 
 **Small card pools — 6-step fallback:**  
 1. Find pairs matching exact difficulty band + popularity floor (excluding recent pairings, as well as all cards the player has seen too recently)  
