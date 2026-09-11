@@ -22,7 +22,7 @@ giscus_comments: false
 <div style="width: 100%; margin-top: 30px;">
   <img src="{{ '/assets/img/Cascade_thumbnail.webp' | relative_url }}" style="width: 100%; height: auto;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Eirdu, Carrier of Dawn by Lucas Graciano</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Card art for Eirdu, Carrier of Dawn by Lucas Graciano</span>
 
 <br>
 There are **29,000+** unique cards in *Magic the Gathering.* Tethered by the limitations of the format, a commander may have access to anywhere from **~4,000 to 29,000+** depending on their color identity. In reality, the actual number of viable cards is somewhere closer to n < 500, with many of the top ~200 seeing play in the majority of all decks, as they make up the *'staple pool'*, often accompanied by more niche picks suited specifically to their commander's strengths.
@@ -40,7 +40,7 @@ Most of these are useless at a given the difficulty tier. The interesting part i
     {% include figure.liquid loading="eager" path="assets/img/choice.gif" title="gameplay" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Example case where Training Grounds is in 11,584 decks, 36.7% of total Kenrith decks. This is significantly more than Force of Negations's 3,012 decks, or 9.5% of Kenrith decks.</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Example case where Training Grounds is in 11,584 decks, 36.7% of total Kenrith decks. This is significantly more than Force of Negations's 3,012 decks, or 9.5% of Kenrith decks.</span>
 
 <br>
 
@@ -81,7 +81,7 @@ Card inclusion rates shift as the meta of the game evolves. A card that sees 40%
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Andrew_Mar_Avalanche.jpeg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 66%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Ride the Avalanche, illustrated by Andrew Mar</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Card art for Ride the Avalanche, illustrated by Andrew Mar</span>
 
 ## Edge Cases
 
@@ -115,7 +115,7 @@ Nearly every deck runs Sol Ring, Arcane Signet, Command Tower. Without explicit 
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Patchwork_Banner.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 36%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Patchwork Banner, illustrated by Sarah Finnigan</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Card art for Patchwork Banner, illustrated by Sarah Finnigan</span>
 
 <br>
 
@@ -142,4 +142,4 @@ At startup the app fetches the latest popular commanders from EDHREC. If that fa
 <div style="width: 100%; height: 400px; overflow: hidden;">
   <img src="{{ '/assets/img/Mox_Opal.jpg' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Card art for Mox Opal, illustrated by Volkan Baga</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Card art for Mox Opal, illustrated by Volkan Baga</span>

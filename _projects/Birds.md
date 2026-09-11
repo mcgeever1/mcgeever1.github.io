@@ -19,7 +19,7 @@ giscus_comments: false
 <div style="width: 100%; height: auto; overflow: hidden; margin-top: 30px;">
   <img src="{{ '/assets/img/murmurations_4.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 50%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
 <br>
 
@@ -42,7 +42,7 @@ The idea for this project came in lecture one day, when I was thinking about how
 <div style="width: 100%; height: 100%; overflow: hidden;">
   <img src="{{ '/assets/img/Murmurations_1.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
 ## Technical 
 
@@ -60,7 +60,7 @@ This is a 3D boids simulation written in python, using Numpy and Matplotlib. Bir
 <div style="width: 100%; height: 100%; overflow: hidden;">
   <img src="{{ '/assets/img/Murmurations_2.avif' | relative_url }}" style="width: 100%; height: 100%; object-fit: cover; object-position: center 51%;" />
 </div>
-<span style="font-size: 0.65em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Søren Solkær / National Geographic</span>
 
 ### Other notes:
 Speed Controls: 
