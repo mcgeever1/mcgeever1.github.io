@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='mailto:mcgeever.e@northeastern.edu'>Email</a> | <a href='https://www.linkedin.com/in/ethan-mcgeever'>LinkedIn</a>
+subtitle: <a href='mailto:mcgeever.e@northeastern.edu'>Email</a> | <a href='https://www.linkedin.com/in/ethan-mcgeever'>LinkedIn</a> | <a href='/assets/pdf/Ethan McGeever Resume.pdf'>Resume</a>
 
 profile:
   align: right

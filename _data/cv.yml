@@ -65,10 +65,13 @@
   contents:
     - title: Programming
       items:
-        - Python (pandas, statsmodels), Stata, R, Git, APIs, GitHub, Excel (VBA, PivotTables), Tableau, Web Scraping
+        - Python (pandas, statsmodels), Stata, R, Git, APIs, GitHub, Web Scraping
     - title: Analysis
       items:
-        - Econometric Analysis, Regression Analysis (DID, Fixed Effects, RD)
+        - Econometric Analysis, Regression Analysis (DID, Fixed Effects, RDD), Financial Analysis, Data Visualization, Competitive Intelligence
+    - title: Tools
+      items:
+        - FRED, Excel (VBA, dynamic modeling, PivotTables), Tableau, PowerPoint, Pitchbook
     - title: Languages
       items:
-        - Elementary German
+        - Elementary German (A2)
