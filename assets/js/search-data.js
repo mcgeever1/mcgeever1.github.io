@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "projects-simulating-bird-flock-patterns-with-linear-algebra",
           title: 'Simulating bird flock patterns with linear algebra',
-          description: "Mapping Bird Murmurations to xyz vectorspace as a &quot;non-math&quot; friendly approach to linear algebra",
+          description: "Mapping Bird Murmurations to XYZ vector space as a &quot;non-math&quot; friendly approach to linear algebra",
           section: "Projects",handler: () => {
               window.location.href = "/projects/birds";
             },},{id: "projects-cascade",
