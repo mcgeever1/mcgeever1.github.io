@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Simulating bird flock patterns with linear algebra
-description: Mapping Bird Murmurations to xyz vectorspace as a "non-math" friendly approach to linear algebra
+description: Mapping Bird Murmurations to XYZ vector space as a "non-math" friendly approach to linear algebra
 img: assets/img/murmurations_4.avif
 thumbnail_position: center 50%
 importance: 1
@@ -31,7 +31,7 @@ What would I actually do with advanced calculus? What about linear algebra?
 
 Within economics, plenty of use cases immediately come to mind. Speaking with those in my life outside of it, I try to distill it into one or two tangible examples. 
 
-The simplest answer for calculus has always been "to build a bridge".  Explaining integrating shapes in 3D space, albeit uninspired from the total beauty of math, gives almost anyone an easily underestandable use for what math allows us to do. 
+The simplest answer for calculus has always been "to build a bridge".  Explaining integrating shapes in 3D space, albeit uninspired from the total beauty of math, gives almost anyone an easily understandable use for what math allows us to do. 
 
 Linear algebra, equally beautiful and interesting, is slightly harder to de-abstract into layman's terms. My professor found the same problem when I asked in office hours.
 
@@ -50,7 +50,7 @@ repo structure:
 - flock.py          --- all behavior for the birds
 - visualizations.py --- shows bird movement and presentation functions
 
-This is a 3D boids simulation written in python, using Numpy and Matplotlib. Birds are only given local perception, only noticing other birds and boundaries within their viewcone. All group behavior comes from local rules set to mimic bird knowledge (avoid collisions, fly with the flock, stay close). Rendered live, each bird is shown as a small pyramid with its apex acting as the nose. Presentation functions such as speed controls and a highlighting mode are used for presenting.
+This is a 3D boids simulation written in Python, using NumPy and Matplotlib. Birds are only given local perception, only noticing other birds and boundaries within their view cone. All group behavior comes from local rules set to mimic bird knowledge (avoid collisions, fly with the flock, stay close). Rendered live, each bird is shown as a small pyramid with its apex acting as the nose. Presentation functions such as speed controls and a highlighting mode are used for presenting.
 
 ## Some Applications of Linear Algebra
 - bird logic uses dot product to calculate the difference in trajectory between them and all neighbors

@@ -33,14 +33,14 @@ $$\binom{n}{2} = \frac{n(n-1)}{2}$$
 
 meaning a 200-card pool generates up to **19,900 possible pairs**.
 
-Most of these are useless at a given the difficulty tier. The interesting part is tuning the model to display compelling matchups.
+Most of these are useless at a given difficulty tier. The interesting part is tuning the model to display compelling matchups.
 
 <div class="row">
   <div class="col-sm">
     {% include figure.liquid loading="eager" path="assets/img/choice.gif" title="gameplay" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Example case where Training Grounds is in 11,584 decks, 36.7% of total Kenrith decks. This is significantly more than Force of Negations's 3,012 decks, or 9.5% of Kenrith decks.</span>
+<span style="font-size: 0.8em; font-weight: normal; font-style: italic;">Example case where Training Grounds is in 11,584 decks, 36.7% of total Kenrith decks. This is significantly more than Force of Negation's 3,012 decks, or 9.5% of Kenrith decks.</span>
 
 <br>
 
@@ -75,7 +75,7 @@ $$f = \frac{n_{\text{decks}}}{n_{\text{potential}}}$$
 <br>
 
 ## Shifting rates 
-Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands work within this constraint, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game. This also avoids the near impossible task of assigning difficulty values card matchups that accounts for the context of what deck it is played in.
+Card inclusion rates shift as the meta of the game evolves. A card that sees 40% play today may drop to 32% next release. The difficulty bands work within this constraint, calibrating as pairs are pulled to keep what feels "Easy" to continue as such regardless of the state of the game. This also avoids the near impossible task of assigning difficulty values to card matchups that account for the context of what deck it is played in.
 
 
 <div style="width: 100%; height: 400px; overflow: hidden;">
@@ -93,7 +93,7 @@ The game pulls from 1200+ commanders. The popular ones (Atraxa, Ur-Dragon) have 
 3. Still struggling to find matchups, relax upper ratio bound (keep lower bound + floor)  
 4. If still struggling, relax popularity floor too  
 5. Allow recently seen cards  
-6. Last resort: drop difficulty lower bound to 1.0x → any valid pair
+6. Last resort: drop difficulty lower bound to 1.0× → any valid pair
 
 <p style="text-align: center;">*Minimum pool size is 10 cards. If a commander can't meet this, it's removed from the session.*</p>
 
@@ -135,7 +135,7 @@ choice.gif       # gameplay demo
 - `https://json.edhrec.com/pages/commanders/{slug}.json` — deck stats
 - `https://api.scryfall.com/cards/named?exact={name}` — card data
 
-At startup the app fetches the latest popular commanders from EDHREC. If that fails it falls back to a hardcoded list of 248 commanders. This makes sure the player won't see an error.
+At startup the website fetches the latest popular commanders from EDHREC. If that fails, it falls back to a hardcoded list of 248 commanders. This makes sure the player won't see an error.
 
 **New partner commanders** added to EDHREC must be manually added to `PARTNER_SLUGS` in `renderer.js`. Without this the fetch will fail.
 

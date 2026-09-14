@@ -38,6 +38,6 @@ My main research interests are monetary policy, financial markets, and the macro
 
 I am in the process of aggregating my economics work onto this site; a larger sample of my work is available upon request!
 
-Currently exploring Markov-switching yld curve models under the guidance of Dean Jun Ma.
+Currently exploring Markov-switching yield curve models under the guidance of Dean Jun Ma.
 
 My past research experiences have focused on intergenerational mobility in the United States  and China's Belt and Road Initiative.
