@@ -35,8 +35,8 @@
       year: Jul – Dec 2025
       description:
         - Supported 10+ private equity due diligence cases across multiple sectors, web-scraping competitor intelligence
-        - Developed internal recession sensitivity tool by indexing 60 historical PE cases, identifying key macro indicators by industry to quickly model sector-specific recession impacts on portfolio companies
-        - Built library of verified market models from recession sensitivity analysis, providing industry-specific frameworks to contextualize new deals within current macroeconomic environments
+        - Developed internal recession sensitivity tool by indexing 60 historical PE cases, identifying key indicators to quickly model sector-specific recession impacts on portfolio companies
+        - Built library of verified market models, providing industry-specific frameworks to contextualize deals within current macro environment
         - Leveraged econometric knowledge to source and construct case-specific datasets. Analyzed financial statements and created growth projections using benchmark data
 - title: Research Interests
   type: nested_list
